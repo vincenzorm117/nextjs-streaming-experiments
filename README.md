@@ -22,6 +22,10 @@ Start the node `./server` with `npm run start` and the `./nextjs-react-18` serve
 * Load the server component streaming example with `http://localhost:3000/server` and notice the page load timing in the network tab.
 * Load the client component streaming example with `http://localhost:3000/client` and notice the difference.
 
+![](./github/assets/server-streaming.png)
+
+![](./github/assets/infinite.png)
+
 > [!NOTE]
 > The Client component example should hit the same API with fetch infinitely.
 > THe Server component example should be pulling down less code overall.
@@ -35,3 +39,5 @@ In the previews example (`LTS Server Streaming`), we noticed that the Client com
 
 > [!NOTE]
 > The fetch calls should not be inifinite anymore.
+
+![](./github/assets/react-19-use.png)
