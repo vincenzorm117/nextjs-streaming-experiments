@@ -1,5 +1,5 @@
 const getFruits = (timeout) => {
-  return fetch(`http://fruits.example.com/?t=${timeout}`, {
+  return fetch(`http://localhost/?t=${timeout}`, {
     // cache: "no-cache"
   }).then((res) => res.json());
 };
